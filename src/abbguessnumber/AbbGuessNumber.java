@@ -21,7 +21,7 @@ public class AbbGuessNumber {
         int count = 0;
         Random ran = new Random();
         Scanner scan = new Scanner(System.in);
-        numRandom = ran.nextInt(10);
+        numRandom = ran.nextInt(100);
         //System.out.println("Number is "+ numRandom);
         while(count<=3){
             System.out.print("Enter your guess : ");
